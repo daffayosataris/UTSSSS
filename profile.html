@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body {
+          background-image: url('gambar/back.jpg');
+          background-size: cover;
+          background-position: center;
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+        }
+        .navbar {
+          background-color: rgba(0, 0, 0, 0.5);
+          margin-bottom: 20px; 
+        }
+        .navbar-brand-text {
+          font-family: 'pacifico', cursive;
+          font-weight: bold;
+          color: #fff;
+          font-size: 20px;
+        }
+        .navbar-nav .nav-link {
+          color: #fff;
+        }
+        .container {
+          max-width: 800px;
+          margin: 80px auto;
+          padding: 20px;
+          background-color: rgba(255, 255, 255, 0.6);
+          box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+          border-radius: 10px;
+        }
+        .profile-img {
+          text-align: center;
+          margin-bottom: 20px;
+        }
+        .profile-img img {
+          width: 200px;
+          height: 200px;
+          border-radius: 50%;
+          border: 5px solid transparent;
+          box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+        }
+        .profile-name {
+          text-align: center;
+          margin-bottom: 20px;
+        }
+        .profile-name h1 {
+          font-size: 32px;
+          margin: 0;
+          color: #040400;
+        }
+        .profile-info p b {
+          display: inline-block;
+          width: 150px;
+        }
+        .profile-info p span {
+          display: inline-block;
+          width: 180px;
+          font-weight: bold;
+        }
+        .profile-info p strong {
+          color: #040400;
+        }
+        .profile-bio {
+          margin-bottom: 20px;
+        }
+        .profile-bio p {
+          line-height: 1.6;
+          color: #040400;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand"><span class="navbar-brand-text">YOSATARIS FIRST WEB</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">HOME</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="profile.html" target="_self">PROFILE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="About.html" target="_self">ABOUT ME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Jadwal.html" target="_self">JADWAL PERKULIAHAN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="hobi.html" target="_self">HOBI</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="profile-img">
+            <img src="gambar/DAPA BOTAK.jpg" alt="Profile Picture">
+        </div>
+        <div class="profile-name">
+            <h1>DAFFA YOSATARIS TAUFIQUL HAKIM</h1>
+        </div>
+        <div class="profile-info">
+            <p><span><b>NIM</b></span><b>: 233307041</p>
+            <p><span><b>Program Studi</b></span>: Teknologi Informasi</p>
+            <p><span><b>Kelas</b></span>: 2B</p>
+            <p><span><b>Universitas</b></span>: Politeknik Negeri Madiun</p>
+            <p><span><b>Tempat/Tanggal Lahir</b></span>: Magetan, 02 Juli 2005</p>
+            <p><span><b>Umur</b></span>: 18 Tahun</p>
+            <p><span><b>Alamat</b></span>: Ds. Setren, Kec. Bendo, Kab. Magetan</p>
+        </div>
+
+
+        <div class="profile-bio">
+            <p>ig:@dfyosataris
+        </div>
+    <!-- Include Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

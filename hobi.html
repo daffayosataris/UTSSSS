@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Pribadi</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: hwb(116 92% 3%);
+            background-image: url('gambar/BACKGROUND.jpg'); 
+            margin-top: 70px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto; 
+        }
+        .-img {
+            width: 500px;
+            height: auto;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+        .navbar-brand-text {
+            font-family: 'pacifico', cursive; 
+            font-weight: bold;
+            color: hsl(96, 6%, 16%); 
+            font-size: 20px; 
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container-fluid">
+        <a class="navbar-brand"><span class="navbar-brand-text">YOSATARIS FIRST WEB</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">HOME</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link" href="profile.html" target="_self">PROFILE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="About.html" target="_self">ABOUT ME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Jadwal.html" target="_self">JADWAL PERKULIAHAN</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="hobi.html" target="_self">HOBI</a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="text-center mb-4">-->BIODATA<--</h1>
+        
+        <div class="row">
+            <div class="col-md-6">
+                <!-- tabel 1 -->
+                <table class="table mb-5">
+                    <thead>
+                        <tr>
+                            <th colspan="2" class="text-center">Hobby</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="2" class="text-center"><img src="gambar/membaca.jpg" alt="Hobby" class="img-fluid hobby-img"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <p>Aku sangat suka membaca karena dengan membaca aku dapat menemukan
+                                    inspirasi dan ilmu baru yang belum pernah ku dapat sebelumnya.
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="col-md-6">
+                <!-- tabel 2 -->
+                <table class="table mb-5">
+                    <thead>
+                        <tr>
+                            <th colspan="2" class="text-center">Cita-Cita</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="2" class="text-center"><img src="gambar/presiden.jpeg" alt="Cita-Cita" class="img-fluid hobby-img"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <p>Cita-Cita ku ingin menjadi presiden republik indonesia karena aku ingin
+                                    mengubah martabat negara saya menjadi lebih baik.
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- Include Bootstrap JS (optional) -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

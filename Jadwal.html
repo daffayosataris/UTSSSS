@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jadwal Kuliah</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: hsl(147, 92%, 30%);
+        color: hsl(60, 33%, 96%);
+        margin-top: 70px; 
+    }
+    .profile-img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 0 auto 20px;
+    }
+    .profile-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 30px;
+        border-radius: 10px; 
+        overflow: hidden; 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    }
+    th, td {
+        text-align: center;
+        border-bottom: 1px solid #111111;
+        white-space: nowrap; 
+    }
+    th {
+        background-color: hsl(240, 4%, 5%);
+        padding: 15px 20px; 
+        color: #1de927;
+        width: 25%;
+    }
+    tr:nth-child(even) {
+        background-color: #15e773;
+    }
+    .navbar-brand-text {
+        font-family: 'pacifico', cursive; 
+        font-weight: bold;
+        color: #0C2D48; 
+        font-size: 20px; 
+    }
+</style>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container-fluid">
+    <a class="navbar-brand"><span class="navbar-brand-text">YOSATARIS FIRST WEB</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">HOME</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" href="profile.html" target="_self">PROFILE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About.html" target="_self">ABOUT ME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Jadwal.html" target="_self">JADWAL PERKULIAHAN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hobi.html" target="_self">HOBI</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</nav>
+
+<div class="jumbotron">
+    <div class="container mx-auto">
+        <div class="profile-img">
+            <img src="gambar/logo.png" alt="Profile Picture">
+        </div>
+        <h1 class="text-center mb-4">--> JADWAL KULIAH 2B <--</h1>
+        <table class="table">
+            <tr>
+                <th>Hari</th>
+                <th>Kode MK</th>
+                <th>Mata Kuliah</th>
+                <th>Jam</th>
+                <th>Ruang</th>
+                <th>Dosen Pengampu</th>
+            </tr>
+            <tr>
+                <td>Senin</td>
+                <td>TI22205 <br>
+                    TI22206</td>
+                <td>Pemrograman Berbasis Objek<br> 
+                    Praktik Pemrograman Berbasis Objek
+                </td>
+                <td>07.00 - 08.40 <br>
+                    08.40 - 14.25
+                </td>
+                <td>217<br>
+                    217</td>
+                <td>Tri Lestariningsih, S.Kom., M.Kom</td>
+            </tr>
+            <tr>
+                <td>Selasa</td>
+                <td>TI22202 <br>
+                    TI22203</td>
+                <td>Pemrograman Mobile 1<br>
+                    Praktik Pemrograman Mobile 1
+                </td>
+                <td>07.00 - 08.40 <br>
+                    08.40 - 14.25
+                </td>
+                <td>305<br>
+                    305</td>
+                <td>Angger Binuko Paksi, M.Kom.</td>
+            </tr>
+            <tr>
+                <td>Rabu</td>
+                <td>TI22207 <br>
+                    TI22208</td>
+                <td>Desain & Pemrograman Web<br>
+                    Praktik Desain & Pemrograman Web</td>
+                <td>12.45 - 14.25 <br>
+                    14.25 - 19.55
+                </td>
+                <td>212<br>
+                    218</td>
+                <td>Gus Nanang Syaifuddiin, S.Kom., M.Kom.</td>
+            </tr>
+            <tr>
+                <td>Kamis</td>
+                <td>TI22209 <br>
+                    TI22210</td>
+                <td>Sistem Operasi<br>
+                    praktik Sistem Operasi</td>
+                <td>12.45 - 14.25 <br>
+                    14.25 - 19.55
+                </td>
+                <td>307<br>
+                    301</td>
+                <td>Muhammad Syaeful Fajar, S.Pd., M.Kom.</td>
+            </tr>
+            <tr>
+                <td>Jumat</td>
+                <td>MKU2201 <br>
+                    TI22204</td>
+                <td>Agama Islam<br>
+                    Manajemen Risiko Proyek </td>
+                <td>07.00 - 09.30 <br>
+                    09.45 - 11.25
+                </td>
+                <td>311<br>
+                    307</td>
+                <td>
+                    Dr. Nanik Nurhayati, S.Ag., M.Pd.<br>
+                    Nisa’ul Hafidhoh, M.T.
+                </td>
+            </tr>
+        </table>
+</div>
+    <!-- Include Bootstrap JS (optional) -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
